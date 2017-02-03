@@ -6,7 +6,7 @@
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Change Product Version
+    - title: Choose Product Version
       folderitems:
         - title: CircleCI 1.0
           url: /v1_introduction
