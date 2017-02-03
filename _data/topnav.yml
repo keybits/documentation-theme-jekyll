@@ -9,13 +9,13 @@ topnav_dropdowns:
     - title: Change Product Version
       folderitems:
         - title: CircleCI 1.0
-          url: /v1_introduction.html
+          url: /v1_introduction
         - title: CircleCI 2.0
-          url: /v2_introduction.html
+          url: /v2_introduction
         - title: CircleCI Enterprise
-          url: /enterprise_introduction.html
+          url: /enterprise_introduction
         - title: CircleCI API
-          url: /api_introduction.html
+          url: /api_introduction
 
 topnav:
 - title: Topnav
