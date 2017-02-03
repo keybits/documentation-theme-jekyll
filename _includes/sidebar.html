@@ -1,5 +1,24 @@
 {% include custom/sidebarconfigs.html %}
 
+<div id="doc-search">
+  <input class="form-control" type="search" />
+  <span class="glyphicon glyphicon-search"></span>
+</div>
+
+<div id="change-version" class="dropdown">
+  <button class="btn btn-default btn-block dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Change Product Version
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">CircleCI 1.0 Docs</a></li>
+    <li><a href="#">CircleCI 2.0 Docs</a></li>
+    <li><a href="#">CircleCI Enterprise Docs</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">API Docs</a></li>
+  </ul>
+</div><!-- /dropdown -->
+
+
 <ul id="mysidebar" class="nav">
     <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
     {% for entry in sidebar %}

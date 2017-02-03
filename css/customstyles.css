@@ -83,7 +83,7 @@ padding-top: 60px;
 margin-top: -40px
 }
 
-body h1 {margin-top:40px;}
+body h1 {margin-top:5px;}
 
 .post-content img {
     margin: 12px 0px 3px 0px;
@@ -1176,4 +1176,26 @@ div.box.box1 {
 h4.panel-title {
     padding-top: 0px;
     margin-top: 0px;
+}
+
+/* CCI Customisation */
+
+#change-version {
+    width: 225px;
+    margin-top: 10px;
+}
+
+#doc-search {
+    width: 225px;
+    margin-top: 10px;
+}
+
+.form-control {
+  padding-right: 30px;
+}
+
+.form-control + .glyphicon {
+  position: absolute;
+  right: 0;
+  padding: 18px 67px;
 }
