@@ -20,41 +20,114 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: What is CircleCI Enterprise
+      url: /enterprise_what_is_circleci_enterprise
+      output: web
+
+    - title: Who is CircleCI Enterprise For?
+      url: /enterprise_who_is_circleci_enterprise_for
+      output: web, pdf
+
+    - title: Differences from circleci.com
+      url: /enterprise_differences_from_circleci_com
+      output: web, pdf
+
   - title: Getting Started
     output: web, pdf
     folderitems:
-    - title: Product 1 home
-      url: /p1_landing_page.html
+
+    - title: Single-Box Install
+      url: /enterprise_single_box_install
       output: web
 
-    - title: Sample 1
-      url: /p1_sample1.html
+    - title: User Quick Start
+      url: /enterprise_user_quick_start
       output: web, pdf
 
-    - title: Sample 2
-      url: /p1_sample2.html
-      output: web, pdf
-
-    - title: Sample 3
-      url: /p1_sample3.html
-      output: web, pdf
-
-  - title: Another heading
+  - title: Clustered Installation
     output: web, pdf
 
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+    - title: Clustered Installation Overview
+      url: /enterprise_clustered_installation_overview
       output: web, pdf
 
-    - title: Sample 5
-      url: /p1_sample5.html
+    - title: Automated AWS Install
+      url: /enterprise_automated_aws_install
       output: web, pdf
 
-    - title: Sample 6
-      url: /p1_sample6.html
+    - title: Manual AWS Install
+      url: /enterprise_manual_aws_install
       output: web, pdf
 
-    - title: Sample 7
-      url: /p1_sample7.html
+    - title: Install on Other Platforms
+      url: /enterprise_install_on other_platforms
+      output: web, pdf
+
+  - title: Resources
+    output: web, pdf
+
+    folderitems:
+    - title: Security on CircleCI Enterprise
+      url: /enterprise_security_on_circleci_enterprise
+      output: web, pdf
+
+    - title: Operational FAQ
+      url: /enterprise_operational_faq
+      output: web, pdf
+
+    - title: Open Source Acknowledgments
+      url: /enterprise_open_source_acknowledgments
+      output: web, pdf
+
+    - title: Changelog
+      url: /enterprise_changelog
+      output: web, pdf
+
+  - title: Advanced Configuration
+    output: web, pdf
+
+    folderitems:
+    - title: Docker-based Builder Configuration
+      url: /enterprise_docker_based_builder_configuration
+      output: web, pdf
+
+    - title: Private Subnets on AWS
+      url: /enterprise_private_subnets_on_aws
+      output: web, pdf
+
+    - title: CloudWatch Monitoring
+      url: /enterprise_cloudWatch_monitoring
+      output: web, pdf
+
+    - title: Using Centralized Logging
+      url: /enterprise_using_centralized_logging
+      output: web, pdf
+
+    - title: Self-Signed SSL Certificates
+      url: /enterprise_self_signed_ssl_certificates
+      output: web, pdf
+
+    - title: LXC-based Installation
+      url: /enterprise_lxc_based_installation
+      output: web, pdf
+
+    - title: LXC-based Builder Configuration
+      url: /enterprise_lxc_based_builder_configuration
+      output: web, pdf
+
+  - title: Troubleshooting
+    output: web, pdf
+
+    folderitems:
+    - title: Troubleshooting the Install
+      url: /enterprise_troubleshooting_the_install
+      output: web, pdf
+
+    - title: Debugging Replicated
+      url: /enterprise_debugging_replicated
       output: web, pdf

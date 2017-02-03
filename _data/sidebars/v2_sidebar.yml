@@ -19,74 +19,83 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Introduction
+  - title: Overview
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /p2_landing_page.html
+    - title: Introduction
+      url: /v2_landing_page
       output: web
 
-  - title: Simple Workflow
+    - title: What is Continuous Integration?
+      url: /v2_what_is_continuous_integration
+      output: web
+
+    - title: What is CircleCI?
+      url: /v2_what_is_circleci
+      output: web
+
+    - title: What's new in CircleCI 2.0?
+      url: /v2_whats_new_in_circleci_2
+      output: web
+
+  - title: Getting Started
     output: web, pdf
     folderitems:
 
-    - title: Sample 1
-      url: /p2_sample1.html
+    - title: Tutorial - Your First Project
+      url: /v2_tutorial_your_first_project
       output: web, pdf
 
-    - title: Sample 2
-      url: /p2_sample2.html
+    - title: Sample config.yml
+      url: /v2_sample_config_yml
       output: web, pdf
 
-    - title: Sample 3
-      url: /p2_sample3.html
+    - title: Writing Proper YAML
+      url: /v2_writing_proper_yaml
       output: web, pdf
 
-    - title: Sample 4
-      url: /p2_sample4.html
+    - title: CircleCI 2.0 FAQ
+      url: /v2_circlecI_2_faw
       output: web, pdf
 
-    - title: Sample 5
-      url: /p2_sample5.html
-      output: web, pdf
-
-  - title: Complex Workflow
+  - title: Configuring CircleCI 2.0
     output: web, pdf
     folderitems:
 
-    - title: Sample 6
-      url: /p2_sample6.html
+    - title: Building Docker Images
+      url: /v2_building_docker_images
       output: web, pdf
 
-    - title: Sample 7
-      url: /p2_sample7.html
+    - title: Caching Strategies
+      url: /v2_caching_strategies
       output: web, pdf
 
-    - title: Sample 8
-      url: /p2_sample8.html
+    - title: Choosing an Executor Type
+      url: /v2_choosing_an_executor_type
       output: web, pdf
 
-    - title: Sample 9
-      url: /p2_sample9.html
+    - title: Cloning via HTTPS over SSH
+      url: /v2_cloning_via_https_over_ssh
+
       output: web, pdf
 
-    - title: Sample 10
-      url: /p2_sample10.html
+    - title: Importing an Existing CircleCI Project
+      url: /v2_importing_an_existing_circleci_project
       output: web, pdf
 
-    - title: Sample 11
-      url: /p2_sample11.html
+    - title: Faster Builds - Using Parallelism
+      url: /v2_faster_builds_using_parallelism
       output: web, pdf
 
-    - title: Sample 12
-      url: /p2_sample12.html
+  - title: Reference
+    output: web, pdf
+    folderitems:
+
+    - title: API Reference
+      url: /v2_api_reference
       output: web, pdf
 
-    - title: Sample 13
-      url: /p2_sample13.html
-      output: web, pdf
-
-    - title: Sample 14
-      url: /p2_sample14.html
+    - title: Supported Environment Variables
+      url: /v2_supported_environment_variables
       output: web, pdf

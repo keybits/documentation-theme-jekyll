@@ -19,41 +19,79 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /v1_landing_page
+      output: web
+
+    - title: What is Continuous Integration?
+      url: /v1_what_is_continuous_integration
+      output: web
+
+    - title: What is CircleCI?
+      url: /v1_what_is_circleci
+      output: web
+
   - title: Getting Started
     output: web, pdf
     folderitems:
-    - title: Product 1 home
-      url: /p1_landing_page.html
-      output: web
 
-    - title: Sample 1
-      url: /p1_sample1.html
+    - title: Tutorial - Your First Project
+      url: /v1_tutorial_your_first_project
       output: web, pdf
 
-    - title: Sample 2
-      url: /p1_sample2.html
+    - title: Sample config.yml
+      url: /v1_sample_config_yml
       output: web, pdf
 
-    - title: Sample 3
-      url: /p1_sample3.html
+    - title: Writing Proper YAML
+      url: /v1_writing_proper_yaml
       output: web, pdf
 
-  - title: Another heading
+    - title: CircleCI 1.0 FAQ
+      url: /v1_circlecI_2_faw
+      output: web, pdf
+
+  - title: Configuring CircleCI 1.0
     output: web, pdf
-
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+
+    - title: Building Docker Images
+      url: /v1_building_docker_images
       output: web, pdf
 
-    - title: Sample 5
-      url: /p1_sample5.html
+    - title: Caching Strategies
+      url: /v1_caching_strategies
       output: web, pdf
 
-    - title: Sample 6
-      url: /p1_sample6.html
+    - title: Choosing an Executor Type
+      url: /v1_choosing_an_executor_type
       output: web, pdf
 
-    - title: Sample 7
-      url: /p1_sample7.html
+    - title: Cloning via HTTPS over SSH
+      url: /v1_cloning_via_https_over_ssh
+
+      output: web, pdf
+
+    - title: Importing an Existing CircleCI Project
+      url: /v1_importing_an_existing_circleci_project
+      output: web, pdf
+
+    - title: Faster Builds - Using Parallelism
+      url: /v1_faster_builds_using_parallelism
+      output: web, pdf
+
+  - title: Reference
+    output: web, pdf
+    folderitems:
+
+    - title: API Reference
+      url: /v1_api_reference
+      output: web, pdf
+
+    - title: Supported Environment Variables
+      url: /v1_supported_environment_variables
       output: web, pdf
