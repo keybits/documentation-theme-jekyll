@@ -1,16 +1,12 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
-topnav:
-- title: Topnav
-  items:
-    - title: News
-      url: /news
+
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Products
+    - title: Change Product Version
       folderitems:
         - title: CircleCI 1.0
           url: /v1_introduction.html
@@ -20,3 +16,9 @@ topnav_dropdowns:
           url: /enterprise_introduction.html
         - title: CircleCI API
           url: /api_introduction.html
+
+topnav:
+- title: Topnav
+  items:
+    - title: CircleCI Home
+      external_url: https://circleci.com
