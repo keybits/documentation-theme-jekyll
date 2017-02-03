@@ -12,9 +12,11 @@ topnav_dropdowns:
   folders:
     - title: Products
       folderitems:
-        - title: Jekyll Documentation Theme
-          url: /mydoc_introduction.html
-        - title: Product 1
-          url: /p1_landing_page.html
-        - title: Product 2
-          url: /p2_landing_page.html
+        - title: CircleCI 1.0
+          url: /v1_introduction.html
+        - title: CircleCI 2.0
+          url: /v2_introduction.html
+        - title: CircleCI Enterprise
+          url: /enterprise_introduction.html
+        - title: CircleCI API
+          url: /api_introduction.html
