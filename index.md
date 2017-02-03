@@ -38,7 +38,7 @@ summary: Ship better code, faster, with CircleCI. The modern Continuous Integrat
                  <div class="panel-body">
                      <h3>CircleCI 2.0</h3>
                      <p>2.0 is our next generation platform, currently in in private beta</p>
-                     <a href="v1_introduction" class="btn btn-primary">2.0 Docs</a>
+                     <a href="v2_introduction" class="btn btn-primary">2.0 Docs</a>
                  </div>
              </div>
          </div>
@@ -53,7 +53,7 @@ summary: Ship better code, faster, with CircleCI. The modern Continuous Integrat
                  <div class="panel-body">
                      <h3>CircleCI Enterprise</h3>
                      <p>Enterprise is our on-premise behind-the-firewall solution</p>
-                     <a href="tag_single_sourcing.html" class="btn btn-primary">Enterprise Docs</a>
+                     <a href="enterprise_introduction" class="btn btn-primary">Enterprise Docs</a>
                  </div>
              </div>
          </div>
@@ -68,7 +68,7 @@ summary: Ship better code, faster, with CircleCI. The modern Continuous Integrat
                  <div class="panel-body">
                      <h3>Support</h3>
                      <p>Need help? Our support team is here to help you succeed<br />&nbsp;</p>
-                     <a href="tag_formatting.html" class="btn btn-primary">Get Support</a>
+                     <a href="#" class="btn btn-primary">Get Support</a>
                  </div>
              </div>
          </div>
